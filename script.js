@@ -7,9 +7,8 @@ Shery.mouseFollower({
   duration: 2,
 });
 Shery.makeMagnet(".nlink");
-
 Shery.hoverWithMediaCircle(".hvr", {
-  images: ["./images/shaljam.jpg",]
+  images: ["./images/shaljam.webp",]
 });
 
 gsap.from(".nlink", {
